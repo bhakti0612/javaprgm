@@ -17,7 +17,10 @@ public class Addition {
        
         // Display the result
         System.out.println("The sum is: " + sum);
-       
+
+            double mul=num1*num2;
+            System.out.print("The multiplication is: "+mul);
+        
         // Close the scanner
         scanner.close();
     }
